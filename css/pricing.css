@@ -21,12 +21,12 @@
 .pricing__wrap {
     display: flex;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
 }
 .list {
     text-align: center;
     margin: 0 15px;
-    flex-wrap: wrap;
+    
     
 }
 .list__tariff {
