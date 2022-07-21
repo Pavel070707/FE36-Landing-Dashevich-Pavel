@@ -1,58 +1,72 @@
-#advantages {
-padding: 80px 0 ;
+#customers{
+    padding: 80px 0;
+    
 }
 
-.advantages__line {
+.customers__line {
     width: 64px;
     height: 2px;
     background-color: #E72424;
     margin: auto;
-    
-
 }
-.advantages__text {
+.customers__text {
     font-size: 14px;
     text-align: center;
     color: #86878B;
-    margin: 34px;
+    margin-top: 34px;
+    margin-bottom: 62px;
     font-family: 'Open Sans';
     font-weight: 100;
-
 }
-.advantages__wrap {
+.customers__wrap {
     display: flex;
     justify-content: space-between;
-    
-
+    flex-wrap: wrap;
 }
-.card {
+.feedback {
     width: 350px;
     border: 1px solid white;
+    
 }
-.card__content {
-    padding: 20px;
+.feedback__content {
+    
 }
-
-.card__img {
+.feedback__text {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 4git00;
+    background-color: #E2E2E2;
+    width: 300px;
+    border-radius: 7px;
+    padding: 23px 9px;
+}
+.feedback__img {
     margin-bottom: 30px;
     width: 70px;
     height: 70px;
-    border: 1px solid #E72424;
+    border: 1px solid #ffffff;
     border-radius: 50%;
-    margin: 0 auto 30px;
+    margin: 0 45px 0;
     overflow: hidden;
-
 }
-.card__img img {
+
+.feedback__img img {
     width: 100%;
     height: 100%;
-    object-fit: none;
     object-position: center;
-    
-    
-
 }
-.card__title {
+
+.feedback__card {
+    display:flex ;
+    flex-direction: row;
+    margin-top: 22px;
+}
+
+.user {
+    
+}
+
+.user__name {
     text-align: center;
     font-size: 20px;
     color: #333333;
@@ -60,11 +74,11 @@ padding: 80px 0 ;
     text-transform: capitalize;
     font-family: 'Open Sans';
     font-weight: 700;
-
 }
-.card__text {
+.user_post {
     text-align: center;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
+    color: #86878B;
 }

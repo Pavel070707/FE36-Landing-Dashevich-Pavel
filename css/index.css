@@ -1,7 +1,9 @@
+@import url(../css/customers.css);
 @import url(../css/header.css);
 @import url(../css/advantages.css);
 @import url(../css/pricing.css);
 @import url(../css/import.css);
+
 * {
     padding: 0;
     margin: 0;
