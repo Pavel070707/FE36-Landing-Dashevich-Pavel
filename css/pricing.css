@@ -3,12 +3,6 @@
     background-color: #F5F5F5;
 }
 
-.pricing__line {
-    width: 64px;
-    height: 2px;
-    background-color: #E72424;
-    margin: auto;
-}
 .pricing__text {
     font-size: 14px;
     text-align: center;
@@ -18,6 +12,18 @@
     font-family: 'Open Sans';
     font-weight: 100;
 }
+
+.pricing__text::before{
+    content: '';
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    display: block;
+    margin: auto;
+    margin-bottom: 34px;
+
+}
+
 .pricing__wrap {
     display: flex;
     justify-content: space-between;

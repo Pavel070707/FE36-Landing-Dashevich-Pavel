@@ -2,14 +2,6 @@
 padding: 80px 0 ;
 }
 
-.advantages__line {
-    width: 64px;
-    height: 2px;
-    background-color: #E72424;
-    margin: auto;
-    
-
-}
 .advantages__text {
     font-size: 14px;
     text-align: center;
@@ -17,8 +9,18 @@ padding: 80px 0 ;
     margin: 34px;
     font-family: 'Open Sans';
     font-weight: 100;
-
 }
+
+.advantages__text::before{
+    content:'';
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    display: block;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
 .advantages__wrap {
     display: flex;
     justify-content: space-between;
