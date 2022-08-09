@@ -1,0 +1,150 @@
+#main {
+    padding: 70px 0 40px;
+    background: url(../img/city_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container {
+}
+
+
+.main__wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+}
+.main__left {
+    width: 550px;
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+.main__logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60px ;
+    margin-bottom: 42px;
+}
+
+.main__logo span{color: #EC7979;
+    text-transform: uppercase;
+}
+
+.titleM {
+    font-size: 36px;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+
+.titleM::after {
+    content:'';
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.main__text {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 16px;
+    font-family: "Raleway" sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.main__button {
+    width: 135px;
+    line-height: 45px;
+    border: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration-color: rgb(207, 40, 40) ;
+
+
+}
+
+.main__button a{
+    color:white;
+    padding: 10px 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.main__form {
+    width: 370px;
+    margin: 0 15px;
+
+}
+.form__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px 59px 61px;
+    border-radius:5px 5px 0 0 ;
+}
+
+.form__content input{
+    width: 252px;
+    padding: 5px;
+    border: 0;
+    outline: none;
+    border-bottom:1px solid #BDBDBD;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.Form__title {
+    line-height: 56px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.Form__title span{
+    color: rgba(236, 121, 121, 1);
+    text-transform: capitalize;
+}
+.form__nep {
+    margin-bottom: 20px;   
+}
+
+.form__nep:last-child{
+    margin-bottom: 0;
+}
+
+
+.getstarted {
+    width:100%;
+    background-color: rgba(236, 121, 121, 1);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    line-height: 57px;
+    cursor: pointer;
+    color: #fff;
+    border-radius:0 0 5px 5px ;
+    border: 0;
+
+}
+

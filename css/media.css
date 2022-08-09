@@ -1,0 +1,17 @@
+@media(max-width:1110px){
+    .main__wrap{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main__left{
+        text-align: center;
+    }
+
+    .main__form{
+        margin-top: 40px;
+    }
+    
+  }
+  

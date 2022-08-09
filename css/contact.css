@@ -1,0 +1,114 @@
+#contact{
+    padding: 70px 0 40px;
+}
+
+.contact__wrap {
+    margin: 0 -15px;
+}
+.contact__title {
+    margin: auto;
+    text-align: center;
+}
+.titleC {
+    font-size: 36px;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(33, 33, 33, 1);
+}
+
+.titleC::after{
+    content:'';
+    margin: auto;
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: rgba(231, 36, 36, 1);
+    margin-top: 30px;
+    
+}
+
+.subtitle {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 16px;
+    font-family: "Raleway" sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.contact__form label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    text-transform: capitalize;
+
+}
+.form__form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    
+
+
+}
+.form__left {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    width: 40%;
+}
+.form__left--item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.form__left--item input{
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    padding: 5px;
+
+}
+
+
+.form__right {
+    margin: 0 15px;
+    width: 40%;
+}
+
+textarea{
+    width:100% ;
+    height: 187px;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    padding: 5px;
+  }
+   
+
+.send {
+    line-height: 40px;
+    width: 170px;
+    border: 0;
+    background-color:#EC7979;
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}

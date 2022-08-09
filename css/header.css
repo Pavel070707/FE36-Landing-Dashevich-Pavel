@@ -1,0 +1,56 @@
+#axit{
+    background-color: black;
+    padding: 20px 0;
+    
+}
+
+.axit__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+}
+.logo {
+
+}
+.logo__axit {
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 400;
+    margin: 0 15px;
+
+}
+
+.loga__axit-it {
+    color: #ec7979;
+}
+.navigation__wrap {
+    margin: 0 15px;
+
+}
+.elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.elements__menu {
+    font-size: 15px;
+    margin-left: 48px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    transition: 0.2s;
+
+}
+
+.elements__menu:hover {
+    border-bottom: 1px solid #ec7979;
+    transform: scale(1.1);
+} 

@@ -1,0 +1,89 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+#social {
+    padding:15px 0 ;
+    background-color: rgba(248, 239, 239, 1);
+}
+
+.container {
+}
+
+.social__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+}
+.media {
+    width: 350px;
+    margin: 0 15px;
+}
+
+.media h2{
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 14px;
+    text-transform: capitalize;
+}
+
+.media__text {
+    color: #86878B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+
+.icons {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 42px;
+    cursor: pointer;
+    margin: 0 15px;
+
+}
+
+.icons li .fa-brands{
+    transition: 0.8s;   
+}
+
+.icons li .fa-brands:hover {
+    transform: rotate(360deg) scale(1.5);
+    
+}
+
+.fa-facebook-f:hover{
+    color: rgb(65, 129, 238);
+}
+
+.fa-viber:hover{
+    color: #675DA9;
+}
+
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+
+.fa-instagram:hover{
+    color: #f09433;
+}
+
+.fa-telegram:hover{
+    color: #0088cc;
+}
+
+.fa-whatsapp:hover{
+    color: #25D366;
+}
+
+.fa-vk:hover{
+    color: #597da3;
+}
+
